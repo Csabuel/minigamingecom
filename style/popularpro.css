@@ -1,0 +1,62 @@
+.popular-products{
+    margin: 10px 90px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap:50px 20px;
+
+}
+.product-picture{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border: 1px solid rgba(128, 128, 128, 0.383);
+    cursor: pointer;
+}
+
+.product-picture img{
+    height: 100%;
+    border-radius: 100px;
+}
+.popular-products-product p{
+    margin: 10px 4px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+.popular h3{
+    margin: 30px ;
+    font-weight: 600;
+    font-size: 22px;
+}
+.filter-section{
+    margin: 20px;
+}
+.filter-button{
+    margin: 20px 0px;
+    height: 30px;
+    width: 220px;
+    border: 1px solid grey; 
+    border-radius: 50px;
+    font-weight: 600;
+    background-color: #F6F6F6;
+}
+.filter-button select{
+    font-weight: normal;
+    background-color: transparent;
+    border: none!important;
+}
+
+
+@media (max-width: 850px) {
+    .popular-products{
+        margin: 10px 90px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+        gap:50px 20px;
+    
+    }
+}

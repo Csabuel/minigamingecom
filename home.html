@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Home</title>
+    <link rel="stylesheet" href="/style/general.css">
+    <link rel="stylesheet" href="/style/navbar.css">
+    <link rel="stylesheet" href="/style/openingpage.css">
+    <link rel="stylesheet" href="/style/popularpro.css">
+    <link rel="stylesheet" href="/style/product.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/footer.css">
+</head>
+<body>
+    <div class="navbar">
+        <div><i class="fa-solid fa-hamburger fa-lg"></i></div>
+        <div class="nav-logo"><span>HomeOfGaming</span></div>
+        <div class="nav-input">
+            <div><i class="fa-solid fa-search fa-xs"></i></div>
+            <input type="search" placeholder="Search for any gaming component">
+        </div>
+        <div class="navbar-menu-row">
+            <div><i class="fa-solid fa-dragon fa-lg"></i><span>ProGaming</span></div>
+            <div><i class="fa-solid fa-user fa-lg"></i><span>Sign-In</span></div>
+            <div>
+                <i class="fa-solid fa-cart-shopping fa-lg"></i><span>Cart</span>
+               <!--<div class="cart-quantity js-cart-quantity">0</div> --> 
+            </div>
+        </div>
+    </div>
+    <div class="opening-page">
+        <div class="opening-page-des">
+            <div><h3>Discover the latest tech products</h3></div>
+            <div><h1>Spring <span style="color:rgb(125,0,0)">Sales</span> 2023</h1></div>
+            <div class="opening-page-buttons">
+                <a href="#shopnow" class="scroll-link"><button>Shop Now</button></a>
+                <button>Add to cart</button>
+            </div>
+        </div>
+        <div class="opening-page-pic">
+            <img src="/PC-hardware-components-on-transparent-background-PNG.png" alt="">
+        </div>
+    </div>
+    <div class="popular">
+        <h3 id="shopnow">Popular Products</h3>
+        <div class = "popular-products js-popular"></div>
+
+    </div>
+    <div class="filter-section">
+        <h3 id="results"> <span class="js-results">0</span> Results for <span>"All"</span></h3>
+        <button class="filter-button">Sort by: <select name="orderBy" size="1" defa>
+            <option value="1" selected>Best Match</option>
+            <option value="1">Price Low To Hight</option>
+            <option value="2">Price High To Low</option>
+            <option value="3">Product Name A-Z</option>
+            <option value="3">Product Name Z-A</option>
+        </select>
+    </button>
+    </div>
+    <!-- Generated products with js-->
+
+
+    <div class="display-selected-item">
+        <div  class="product-items js-product-item">
+
+        </div>
+        <div id="item-selected" class="js-more-info">
+
+        </div>
+    </div>
+
+    <div class="footer-background">
+        <div class="footer-section">
+            <div class="footer-info">
+                <ul>
+                    <li class="footer-title">GET HELP</li>
+                    <li>Frequently Asked Questions</li>
+                    <li>Order Status</li>
+                    <li>Recall Notices</li>
+                    <li>Returns</li>
+                    <li>Store Feedback</li>
+                </ul>
+            </div>
+            <div class="footer-company">
+                <ul>
+                    <li class="footer-title">LEGAL & PRIVACY</li>
+                    <li>Conditions of Use</li>
+                    <li>Careers</li>
+                    <li>Privacy Policy</li>
+                    <li>PowerUp Rewards Terms & Conditions</li>
+                    <li>CA Privacy Rights</li>
+                </ul>
+            </div>
+            <div class="footer-open">
+                <ul>
+                    <li class="footer-title">ABOUT US</li>
+                    <li>Accessibility</li>
+                    <li>Affiliates </li>
+                    <li>Game Informer</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+
+
+    <script src="/product.js"></script>
+    <script src="/openproduct.js"></script>
+   <!-- <script src="/pickup.js"></script> --> 
+    <script src="https://kit.fontawesome.com/98291ddf62.js" crossorigin="anonymous"></script>
+</body>
+</html>
